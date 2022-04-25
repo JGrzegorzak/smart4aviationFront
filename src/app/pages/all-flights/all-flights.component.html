@@ -1,0 +1,9 @@
+<div>
+  <ul *ngFor="let flight of flights">
+    <li>Id lotu: {{flight.flightId}}</li>
+    <li>Numer lotu: {{flight.flightNumber}}</li>
+    <li>IATACode portu początkowego: {{flight.departureAirportIATACode}}</li>
+    <li>IATACode portu końcowego: {{flight.arrivalAirportIATACode}}</li>
+    <li>Data wylotu: {{flight.departureDate}}</li>
+  </ul>
+</div>
